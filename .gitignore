@@ -1,6 +1,6 @@
 
-# Created by https://www.gitignore.io/api/venv,django,python
-# Edit at https://www.gitignore.io/?templates=venv,django,python
+# Created by https://www.gitignore.io/api/venv,django,python,vagrant
+# Edit at https://www.gitignore.io/?templates=venv,django,python,vagrant
 
 ### Django ###
 *.log
@@ -166,6 +166,16 @@ dmypy.json
 
 # Pyre type checker
 
+### Vagrant ###
+# General
+.vagrant/*
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### venv ###
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
@@ -179,4 +189,4 @@ env.bak/
 venv.bak/
 pip-selfcheck.json
 
-# End of https://www.gitignore.io/api/venv,django,python
+# End of https://www.gitignore.io/api/venv,django,python,vagrant
