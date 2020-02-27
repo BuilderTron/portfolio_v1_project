@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<div class="container text-center">
+  <h1>Jose's Blogs</h1>
+
+{% for blog in blogs %}
+
+<h3>{{ blog.title }}</h3>
+<h6>{{ blog.date }}</h6>
+<p>{{ blog.description }}</p>
+
+
+{% endfor %}
